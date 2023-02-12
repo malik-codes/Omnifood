@@ -122,7 +122,7 @@ Android app
 About Omnifood
 For Business
 Cooking partners
-Career
+Careers
 Recipe directory
 Help center
 Privacy & terms
