@@ -16,3 +16,11 @@ body {
   font-weight: 400px;
   color: #555;
 }
+.test {
+  background-color: red;
+  max-width: 50rem;
+  padding: 4rem;
+  font-size: 2rem;
+  color: #fff;
+  /* 1rem = 10px */
+}
