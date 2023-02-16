@@ -15,6 +15,7 @@ default: 1
 --- 02-COLORS
 - primary: #e67e22
 - tints:#fdf2e9
+  color: #cf711f;
 - shades:
 - accents:
 - greys:
@@ -141,4 +142,8 @@ body {
 .delivered-text {
   font-size: 1.8rem;
   font-weight: 600;
+}
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
