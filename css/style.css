@@ -4,11 +4,15 @@
 -FONT-SIZE (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 - font weights
-default:400
+default: 400
+medium: 500 
+semi-bold: 600
+bold: 700
 
 - line heights
 default: 1
-
+small: 1.05
+paragraph default: 1.6
 -SPACING-SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
@@ -24,6 +28,7 @@ default: 1
 --- 05-SHADOWS
 
 ---06-BORDER-RADIUS
+default-9px
 
 ---07-WHITE-SPACE
 -spacing system:2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -65,8 +70,8 @@ body {
   display: inline-block;
   font-size: 2rem;
   font-weight: 600;
-  padding: 1.6rem 3.2rem;
   text-decoration: none;
+  padding: 1.6rem 3.2rem;
   border-radius: 9px;
 
   /* put transition on original "state" */
@@ -121,6 +126,39 @@ body {
 }
 
 /**************************/
+/* NAVIGATON */
+/**************************/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s;
+  font-size: 1.8rem;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+/**************************/
 /* HEADER */
 /**************************/
 
@@ -131,6 +169,7 @@ body {
 .hero {
   max-width: 130rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
   display: grid;
   gap: 9.6rem;
   grid-template-columns: 1fr 1fr;
