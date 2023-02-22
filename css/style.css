@@ -58,7 +58,7 @@
 /* FEATURED IN SECTION */
 /**************************/
 .section-featured {
-  padding: 4.8rem 0;
+  padding: 4.8rem 0 3.2rem 0;
 }
 .heading-featured-in {
   font-size: 1.4rem;
@@ -66,6 +66,7 @@
   letter-spacing: 0.75px;
   text-align: center;
   margin-bottom: 2.4rem;
+  color: #888;
 }
 .logos {
   display: flex;
@@ -73,6 +74,8 @@
 }
 .logos img {
   height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
 }
 
 /**************************/
