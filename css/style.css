@@ -253,7 +253,7 @@
 }
 .testimonial-name {
   font-size: 1.6rem;
-  color: #777;
+  color: #676767;
 }
 .gallery {
   display: grid;
@@ -261,7 +261,14 @@
   gap: 1.6rem;
   padding: 1.6rem;
 }
+.gallery-items {
+  overflow: hidden;
+}
 .gallery-items img {
   display: block;
   width: 100%;
+  transition: all 0.4s;
+}
+.gallery-items img:hover {
+  transform: scale(1.1);
 }
