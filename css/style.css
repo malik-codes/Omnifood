@@ -8,7 +8,7 @@
 }
 @media (max-width: 600px) {
   .section-hero {
-    border: 20px dashed blue;
+    border: 20px dashed green;
     background-color: blue;
   }
 }
