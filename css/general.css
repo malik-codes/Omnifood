@@ -247,11 +247,13 @@ body {
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
+/* MOBILE */
 
 .btn-mobile-nav {
   border: none;
   background: none;
   cursor: pointer;
+  display: none;
 }
 
 .icon-mobile-nav {
@@ -260,6 +262,11 @@ body {
   color: #333;
 }
 
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/* *********************************** */
 .list {
   list-style: none;
   display: flex;
